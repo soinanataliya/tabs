@@ -1,5 +1,6 @@
 import React from 'react';
 import { Item } from './Item';
+import { Form } from './Form';
 import styles from './New.module.css'
 
 export class New extends React.Component {
@@ -35,9 +36,12 @@ export class New extends React.Component {
     render(){
         const li = this.state.list.map((elem) => <Item props={elem} key={elem.id} />)
         return (
+        <>
         <div className={styles.tableContainer}> 
         {li}
         </div>
+        <Form />
+        </>
         )
     }
 }

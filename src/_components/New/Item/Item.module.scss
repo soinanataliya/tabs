@@ -1,6 +1,25 @@
 .item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
+    min-height: 40px;
     background-color: #F4F4F8;;
+    border-radius: 6px;
     margin: 7px 0;
     padding: 10px;
+}
+.column {
+    padding: 5px;
+}
+.idColumn {
+    width: 30%;
+}
+.stateColumn {
+    width: 30%;
+}
+
+.subjectColumn {
+    width: 40%;
 }
