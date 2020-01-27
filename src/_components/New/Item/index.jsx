@@ -5,9 +5,9 @@ export class Item extends React.Component {
         const { props } = this.props;
         return (
         <div className={styles.item}>
-            <div className={styles.column, styles.idColumn}>Заявка {props.id}</div> 
-            <div className={styles.column, styles.stateColumn}>{props.state.name}</div>
-            <div className={styles.column, styles.subjectColumn}>{props.subject.name}</div>
+            <div className={[styles.column, styles.idColumn].join(' ')}>Заявка {props.id}</div> 
+            <div className={[styles.column, styles.stateColumn].join(' ')}>{props.state.name}</div>
+            <div className={[styles.column, styles.subjectColumn].join(' ')}>{props.subject.name}</div>
         </div>
         )
     }
