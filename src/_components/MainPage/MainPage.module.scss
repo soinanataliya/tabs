@@ -3,14 +3,12 @@
   flex-flow: column;
   padding: 30px;
   height: 100%;
-  border: 1px blue solid;
 }
 .tabs {
   display: flex;
   flex-flow: row;
   padding: 10px 0;
   color: black;
-  border: 1px red solid;
 }
 
 .tab {
@@ -18,8 +16,12 @@
   padding: 10px;
   text-decoration: none;
   border-bottom: 2px #E7E7E7 solid;
+  color: black;
 }
 
 .active-tab {
   border-bottom: 3px #FF773C solid;
+}
+a:-webkit-any-link {
+  color: black;
 }

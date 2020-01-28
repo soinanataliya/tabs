@@ -1,0 +1,13 @@
+.tableRow {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background: #F4F4F8;
+    border-radius: 6px;
+    margin: 7px 0;
+    padding: 20px;
+}
+.elem {
+    width: 25%;
+}

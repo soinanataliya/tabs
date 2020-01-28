@@ -1,0 +1,18 @@
+.formWrapper {
+    display: flex;
+    flex-flow: column;
+}
+.buttonWrapper{
+    margin: 20px 0;
+}
+
+.label {
+    color: black;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.labelDisabled {
+    color:  #D5D5D5;
+    font-size: 18px;
+    margin: 10px 0;
+}

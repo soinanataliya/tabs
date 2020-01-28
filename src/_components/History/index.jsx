@@ -1,12 +1,11 @@
 import React from 'react';
+import { Table } from './Table'
 
-export class History extends React.Component {
-    // constructor() {
-    //     super();
-    // }
-    render(){
-        return (
-        <div>История заявок!</div>
-        )
-    }
+export const History = () => {
+    return (
+        <div>
+            <input type="search" placeholder='Поиск среди всех заявок' />
+            <Table />
+        </div>
+    )
 }

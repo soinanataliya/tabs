@@ -1,0 +1,28 @@
+.selectWrapper {
+    position: relative;
+    max-width: 568px;
+    min-width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.selectWrapperDisabled {
+    position: relative;
+    max-width: 568px;
+    min-width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: not-allowed;
+    border: 1px #D5D5D5 solid;
+    color: #D5D5D5;
+    padding: 10px;
+}
+
